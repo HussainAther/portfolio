@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    }
+    
+    .about-me, .portfolio, .contact-me {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    }
+    
+    .about-me img, .portfolio img {
+    margin-top: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #3f3f3f;
+    }
+    
+    ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    a {
+    text-decoration: none;
+    color: #3f3f3f;
+    font-weight: bold;
+    }
+    
+    label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    }
+    
+    input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #3f3f3f;
+    border-radius: 5px;
+    }
+    
+    button[type="submit"] {
+    background-color: #3f3f3f;
+    color: #fff;
+    padding: 10px 20
+
+    }
+    .center {
+        margin: auto;
+        width: 50%;
+        border: 3px solid green;
+        padding: 10px;
+      }
